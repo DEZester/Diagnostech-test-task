@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "name": "diagnostech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "sass source/stylesheets/index.scss index.css",
+    "start": "sass --watch source/stylesheets/index.scss index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEZester/Diagnostech-test-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEZester/Diagnostech-test-task/issues"
+  },
+  "homepage": "https://github.com/DEZester/Diagnostech-test-task#readme",
+  "description": ""
+}
