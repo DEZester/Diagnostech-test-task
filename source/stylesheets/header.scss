@@ -1,0 +1,61 @@
+@import './variables.scss';
+.header {
+  height: 130px;
+  background-color: $basicBlue;
+  padding: 0 165px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+  }
+  &__input-container {
+    display: flex;
+    position: relative;
+    margin-top: 18px;
+    background-color: $basicWhite;
+    border-radius: 10px;
+  }
+  &__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 12px 8px 16px;
+    width: 282px;
+    height: 39px;
+    &::placeholder {
+      color: $secondBlue;
+    }
+  }
+  &__input-logo {
+    position: absolute;
+    left: 252px;
+    top: 10.5px;
+    width: 18px;
+    height: 19px;
+  }
+  &__telephone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    width: 181px;
+    height: 24px;
+  }
+  &__telephone-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+  &__telephone {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

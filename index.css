@@ -1,12 +1,74 @@
-.body {
-  width: 100vw;
-  height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap");
+.header {
+  height: 130px;
+  background-color: #344265;
+  padding: 0 165px;
 }
-
-.app {
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 160px;
+  height: 30px;
+  margin-top: 20px;
+}
+.header__input-container {
+  display: flex;
+  position: relative;
+  margin-top: 18px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+.header__input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 8px 12px 8px 16px;
+  width: 282px;
+  height: 39px;
+}
+.header__input::placeholder {
+  color: #485982;
+}
+.header__input-logo {
+  position: absolute;
+  left: 252px;
+  top: 10.5px;
+  width: 18px;
+  height: 19px;
+}
+.header__telephone-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 23px;
+  width: 181px;
+  height: 24px;
+}
+.header__telephone-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+.header__telephone {
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
 }
 
 /*# sourceMappingURL=index.css.map */
