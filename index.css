@@ -149,7 +149,48 @@
 }
 
 .footer {
-  width: 100%;
+  display: flex;
+  height: 510px;
+  padding: 0 165px;
+  background: red;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 149px;
+  width: 231px;
+}
+.footer__logo {
+  margin-top: 56px;
+  margin-bottom: 64px;
+  width: 208px;
+  height: 39px;
+}
+.footer__address {
+  margin-bottom: 32px;
+  width: 193px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #f8f8f8;
+}
+.footer__email {
+  margin-bottom: 46px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #f8f8f8;
+}
+.footer__btn {
+  margin-bottom: 75px;
+}
+.footer__slogan {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f8f8f8;
 }
 
 * {
@@ -185,6 +226,11 @@ body {
   line-height: 24px;
 }
 
+.footer__telephone {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -198,6 +244,7 @@ body {
   font-weight: 800;
   font-size: 16px;
   line-height: 26px;
+  letter-spacing: -0.5px;
   cursor: pointer;
 }
 .btn__logo {
