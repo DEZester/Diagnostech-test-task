@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    border-color: transparent;
     padding: 8px 12px 8px 16px;
     width: 282px;
     height: 39px;
@@ -57,5 +58,47 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 29px;
+    height: 21px;
+    list-style-type: none;
+  }
+  &__nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 22px;
+    margin-top: 7px;
+    height: 44px;
+    background-color: $basicYellow;
+    border-radius: 12px;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+  }
+
+  &__btn-logo {
+    width: 18px;
+    height: 18px;
   }
 }
