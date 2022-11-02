@@ -40,25 +40,6 @@
     width: 18px;
     height: 19px;
   }
-  &__telephone-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 23px;
-    width: 181px;
-    height: 24px;
-  }
-  &__telephone-icon {
-    width: 18px;
-    height: 18px;
-    margin-right: 6px;
-  }
-  &__telephone {
-    color: #fff;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-  }
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -81,24 +62,6 @@
     text-decoration: none;
   }
   &__btn {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding: 9px 22px;
     margin-top: 7px;
-    height: 44px;
-    background-color: $basicYellow;
-    border-radius: 12px;
-    border-color: transparent;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 26px;
-    cursor: pointer;
-  }
-
-  &__btn-logo {
-    width: 18px;
-    height: 18px;
   }
 }
