@@ -1,13 +1,12 @@
 .footer {
   display: flex;
-
   height: 510px;
   padding: 0 165px;
-  background: red;
+  background: $basicBlue;
   &__container {
     display: flex;
     flex-direction: column;
-    margin-right: 149px;
+    margin-right: auto;
     width: 231px;
   }
   &__logo {
@@ -41,5 +40,47 @@
     font-size: 14px;
     line-height: 17px;
     color: $basicWhite;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    width: 698px;
+  }
+
+  &__list-title {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+  }
+  &__list-item {
+    height: 17px;
+  }
+  &__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $basicWhite;
+    text-decoration: none;
+  }
+  &__social-links {
+    display: flex;
+    gap: 20px;
+    align-self: end;
+    margin-top: 70px;
   }
 }
