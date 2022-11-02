@@ -1,0 +1,82 @@
+.main {
+  height: 498px;
+  background: $basicWhite;
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    // width: 1275px;
+    height: 418px;
+  }
+  &__img {
+    width: 610px;
+  }
+  &__info {
+    margin-top: 48px;
+    margin-right: 176px;
+  }
+  &__titles-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    width: 489px;
+  }
+  &__main-title {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  &__second-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: $secondBlue;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+    list-style-type: none;
+  }
+  &__list-item {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #5f719f;
+  }
+  &__list-icon {
+    display: inline-block;
+    margin-right: 9px;
+    width: 18px;
+    height: 18px;
+    background-image: url('/source/images/mark.jpg');
+    background-repeat: no-repeat;
+  }
+  &__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 22px;
+    gap: 9px;
+    border-radius: 12px;
+    border-color: transparent;
+    background: $secondBlue;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  &__btn-logo {
+    width: 18px;
+    height: 18px;
+  }
+}
