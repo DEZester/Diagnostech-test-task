@@ -1,7 +1,7 @@
 .footer {
   display: flex;
-  height: 510px;
   padding: 0 165px;
+  height: 510px;
   background: $basicBlue;
   &__container {
     display: flex;
@@ -80,7 +80,7 @@
   &__social-links {
     display: flex;
     gap: 20px;
-    align-self: end;
     margin-top: 70px;
+    align-self: end;
   }
 }

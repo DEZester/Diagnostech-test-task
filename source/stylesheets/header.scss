@@ -1,16 +1,16 @@
 @import './variables.scss';
 .header {
+  padding: 0 165px;
   height: 130px;
   background-color: $basicBlue;
-  padding: 0 165px;
   &__container {
     display: flex;
     justify-content: space-between;
   }
   &__logo {
+    margin-top: 20px;
     width: 160px;
     height: 30px;
-    margin-top: 20px;
   }
   &__input-container {
     display: flex;
@@ -24,9 +24,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 8px 12px 8px 16px;
     border-radius: 10px;
     border-color: transparent;
-    padding: 8px 12px 8px 16px;
     width: 282px;
     height: 39px;
     &::placeholder {
