@@ -40,6 +40,10 @@
   top: 10.5px;
   width: 18px;
   height: 19px;
+  background-image: url("/source/images/inputSearch.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header__nav {
   display: flex;
@@ -146,6 +150,11 @@
 .main__btn-logo {
   width: 18px;
   height: 18px;
+  background-image: url("/source/images/telephone.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0) invert(1);
 }
 
 .footer {
@@ -256,9 +265,13 @@ body {
   height: 24px;
 }
 .telephone__icon {
+  margin-right: 6px;
   width: 18px;
   height: 18px;
-  margin-right: 6px;
+  background-image: url("/source/images/telephone.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .telephone__phone-number {
   color: #fff;
@@ -292,6 +305,10 @@ body {
 .btn__logo {
   width: 18px;
   height: 18px;
+  background-image: url("/source/images/btnLogo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.css.map */
